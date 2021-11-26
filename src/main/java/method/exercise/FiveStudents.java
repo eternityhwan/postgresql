@@ -11,7 +11,7 @@ public class FiveStudents {
         };
 
         for (int[] student : students) {
-            System.out.println(String.format("국어:%d 영어:%d 수학:%d 총점:%d", student[0], student[1], student[2]));
+            System.out.println(String.format("국어:%d 영어:%d 수학:%d", student[0], student[1], student[2]));
         }
     }
 }

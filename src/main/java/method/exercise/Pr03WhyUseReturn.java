@@ -2,8 +2,6 @@ package method.exercise;
 
 public class Pr03WhyUseReturn {
 
-
-
     public static void main(String[] args) {
         int[][] students = {
                 {100, 99, 98},
