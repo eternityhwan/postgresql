@@ -1,18 +1,18 @@
 package method.exercise;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-public class WhatIsMethod {
+public class CalcScore {
     void sumScores(int koreanScore, int englishScore, int mathScore) {
         System.out.println(String.format("합계: %d", koreanScore + englishScore + mathScore));
+    }
+
+    int sumScoresReturn(int koreanScore, int englishScore, int mathScore) {
+         return koreanScore + englishScore + mathScore;
     }
 
     public static void main(String[] args) {
 
 
-        WhatIsMethod wim = new WhatIsMethod();
+        CalcScore wim = new CalcScore();
         wim.sumScores(100, 90, 95);
     }
 }
