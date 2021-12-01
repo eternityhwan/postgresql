@@ -1,12 +1,17 @@
 package Codeup100;
 
+import java.util.Scanner;
+
 public class Pro26 {
+    // 정수값을 벗어나는 값을 출력하는거임 롱으로 저장하면 됨.
 
     public static void main(String[] args) {
 
-        int jungsu = 5000000;
+        Scanner sc = new Scanner(System.in);
 
-        System.out.printf("%d", jungsu);
+        long nomukun = sc.nextLong();
 
+
+        System.out.printf("%d", nomukun);
     }
 }

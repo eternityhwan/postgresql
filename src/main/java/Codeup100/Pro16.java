@@ -1,11 +1,28 @@
 package Codeup100;
 
 
+import java.sql.Time;
 import java.text.SimpleDateFormat;
 import java.util.Date; // < java.sql이 아니라 java.utill 을 가져와야함, sql은 시분초 정보가 없음.
+import java.util.Scanner;
+
+// 그저
 
 public class Pro16 {
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        String Time = sc.next();
+
+
+        System.out.println(Time);
+    }
+}
+
+        // 아래 풀이는 오늘 날짜라 받아와 오늘 날짜의 시간 분을 출력하는 것임
+        // 문제에서 요구한 풀이와는 다르다.
+
         // 오늘 시간을 시간:분 으로 출력 하는 것이 목적이다.
         // 첫 번째로 오늘 날짜를 가져온 후
         // 두 번째로 오늘 시각에서 시간과 분만 추출할 것임.
@@ -22,11 +39,9 @@ public class Pro16 {
         // 인스턴스화를 시킨다는건 메모리화 시킨다는 것 이때부터 쓸 수 있어
 
         // 3. 그리고 출력하면 됨.
-        Date today = new Date();
-        SimpleDateFormat hourminute = new SimpleDateFormat("HH:mm:ss");
-        System.out.println(today); // <- 현재 시간 To.String은 String 화 시켜준다는 것임.
-        System.out.println(hourminute.format(today));
+//        Date today = new Date();
+//        SimpleDateFormat hourminute = new SimpleDateFormat("HH:mm:ss");
+//        System.out.println(today); // <- 현재 시간 To.String은 String 화 시켜준다는 것임.
+//        System.out.println(hourminute.format(today));
 
-    }
 
-}

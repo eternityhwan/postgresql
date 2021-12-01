@@ -1,10 +1,14 @@
 package Codeup100;
 
+import java.util.Scanner;
+
 public class Pro15 {
     public static void main(String[] args) {
 
-        int nomukun = 7642;
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println(nomukun +  "  " + nomukun + "  " + nomukun);
+        int nomukun = sc.nextInt();
+
+        System.out.println(nomukun +  " " + nomukun + " " + nomukun);
     }
 }
