@@ -1,10 +1,12 @@
 package Codeup100;
 
+import java.util.Scanner;
+
 public class Pro46 {
     public static void main(String[] args) {
 
-        int x = 1024;
-
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
         System.out.println(x << 1);
     }
 }
