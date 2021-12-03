@@ -18,8 +18,6 @@ public class Pro69re {
         String nomu = sc.nextLine();
         String[] nomu2 = nomu.split(" ");
 
-
-
         for (int i = 0; i < nomu2.length; i++) {
                 if (nomu2[i].equals("0")) {
                     break;
@@ -28,8 +26,6 @@ public class Pro69re {
         }
     }
 }
-
-
 
 //        while (true) {
 //            if (nomukun == 0) {
